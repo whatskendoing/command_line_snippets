@@ -1,0 +1,22 @@
+#Using the codesign command
+
+user@computer ~ % codesign -dvvv /Applications/Xcode.app        
+Executable=/Applications/Xcode.app/Contents/MacOS/Xcode
+Identifier=com.apple.dt.Xcode
+Format=app bundle with Mach-O thin (x86_64)
+CodeDirectory v=20200 size=466 flags=0x2200(kill,library-validation) hashes=7+5 location=embedded
+Hash type=sha256 size=32
+CandidateCDHash sha256=9cdd644291208d8af499827a0281df6744e04477
+CandidateCDHashFull sha256=9cdd644291208d8af499827a0281df6744e0447736cad2c3163f34bb0fc4adbb
+Hash choices=sha256
+CMSDigest=9cdd644291208d8af499827a0281df6744e0447736cad2c3163f34bb0fc4adbb
+CMSDigestType=2
+CDHash=9cdd644291208d8af499827a0281df6744e04477
+Signature size=4617
+Authority=Apple Mac OS Application Signing
+Authority=Apple Worldwide Developer Relations Certification Authority
+Authority=Apple Root CA
+Info.plist entries=40
+TeamIdentifier=59GAB85EFG
+Sealed Resources version=2 rules=13 files=296111
+Internal requirements count=1 size=108
