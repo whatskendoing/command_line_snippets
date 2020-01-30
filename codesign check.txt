@@ -20,3 +20,7 @@ Info.plist entries=40
 TeamIdentifier=59GAB85EFG
 Sealed Resources version=2 rules=13 files=296111
 Internal requirements count=1 size=108
+
+user@computer ~ % spctl --assess --verbose /Applications/Xcode.app 
+/Applications/Xcode.app: accepted
+source=Mac App Store
